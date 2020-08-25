@@ -1,6 +1,6 @@
 # APPWebSocketESP
 
-Es una Apclicación que permite crean una conección entre un ESP32 o un ESP8266 mediante WebSockets
+Es una Apclicación que permite crean una conexión entre un ESP32 o un ESP8266 mediante WebSockets
 
 ## Comenzando 🚀
 
