@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>WebSockets</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id ="title-container">
+            <h1>APP WebSockets con ESP</h1>
+            <h4> Comunicación mediante websockets, entre esta aplicación y uno o varios ESP32 o ESP8266 </h4>
+        </div>
+      
+        <div id = "variable-container">
+           
+            <div id ="variable-window">
+                <div id = "output"></div>
+            </div>
+
+            <input type="text" id ="IP_id" placeholder="IP del dispositivo ESP"> 
+
+            <div id = "Btn_Container">
+                <button id="BtConec_id">Conectar</button>
+                <button id="BtDesc_id">Desconectar</button>
+                <button id="BtSD_id">Solicitar envío de datos</button>
+                <button id="BtCD_id">Cancelar envío de datos</button>
+                
+            </div>
+    
+            
+        </div>
+
+        <div id = "variable-container">
+           
+            <div id ="variable-window">
+                <div id = "output2"></div>
+            </div>
+
+            <input type="text" id ="IP2_id" placeholder="IP del dispositivo ESP"> 
+
+            <div id = "Btn_Container">
+                <button id="BtConec2_id">Conectar</button>
+                <button id="BtDesc2_id">Desconectar</button>
+                <button id="BtSD2_id">Solicitar envío de datos</button>
+                <button id="BtCD2_id">Cancelar envío de datos</button>
+                
+            </div>
+            
+        </div>
+
+
+        <script src = "app.js" charset = "utf-8"></script>
+    </body>
+</html>

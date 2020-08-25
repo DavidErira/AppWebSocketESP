@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+#title-container{
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#variable-container {
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .3);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#variable-window {
+    padding: 14px 0;
+    margin: 0 15px;
+    color: rgb(26, 26, 26);
+    text-align: center;
+}
+
+#output {
+    padding: 14px 0;
+    color: rgb(59, 59, 59);
+    margin: 0 35px;
+}
+
+#output2 {
+    padding: 14px 0;
+    color: rgb(59, 59, 59);
+    margin: 0 35px;
+}
+
+#Btn_Container{
+    columns: 2;
+    margin: 15px 0 20px 5%;
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    background: #eee;
+    display: block;
+    width: 90%;
+    font-family: 'Comfortaa', cursive;
+    margin:10px 0 0 5%;
+}
+
+button{
+    background: #8429ce;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    padding: 10px 0;
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Comfortaa', cursive;
+    margin:5px 0 5px 5%;
+    
+}
+
+
